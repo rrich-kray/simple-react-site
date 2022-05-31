@@ -19,7 +19,7 @@ const Footer = () => {
       <div id="footer-container-right">
         <h1 id="contact">Contact Info:</h1>
         <span>Email: rrich.kray.93@gmail.com</span>
-        <span>GitHub: </span>
+        <span>GitHub: https://github.com/rrich-kray</span>
         <span>Portfolio: </span>
       </div>
     </div>
