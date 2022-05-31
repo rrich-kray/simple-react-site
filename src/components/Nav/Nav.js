@@ -2,7 +2,7 @@ import React from "react";
 import "./Nav.css";
 
 const Nav = () => {
-  const sections = ["Home", "About", "Skills", "Contact", "Other"];
+  const sections = ["Home", "About", "Contact"];
   return (
     <nav id="nav">
       <div id="nav-left-container">
@@ -13,7 +13,15 @@ const Nav = () => {
       </div>
       <div id="nav-right-container">
         {sections.map((section) => (
-          <a href={`#${section}`}>{section}</a>
+          <a
+            href={
+              section === "Home"
+                ? "#hero"
+                : `#${section[0].toLowerCase() + section.slice(1)}`
+            }
+          >
+            {section}
+          </a>
         ))}
       </div>
     </nav>
