@@ -1,0 +1,8 @@
+#tile-container {
+    display: grid;
+    height: 75vh;
+    width: 100vw;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
