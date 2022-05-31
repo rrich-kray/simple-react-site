@@ -20,7 +20,9 @@ const Footer = () => {
         <h1 id="contact">Contact Info:</h1>
         <span>Email: rrich.kray.93@gmail.com</span>
         <span>GitHub: https://github.com/rrich-kray</span>
-        <span>Portfolio: </span>
+        <span>
+          Portfolio: https://react-portfolio-v1-rrich-kray.herokuapp.com/
+        </span>
       </div>
     </div>
   );
